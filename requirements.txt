@@ -1,0 +1,197 @@
+alabaster @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/alabaster/alabaster-0.7.12
+appdirs @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/appdirs/appdirs-1.4.4
+ase @ file:///dev/shm/ASE/3.22.0/foss-2021a/ase/ase-3.22.0
+ase-ext @ file:///dev/shm/ASE/3.22.0/foss-2021a/aseext/ase-ext-20.9.0
+asn1crypto @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/asn1crypto/asn1crypto-1.4.0
+atomicwrites @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/atomicwrites/atomicwrites-1.4.0
+attrs @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/attrs/attrs-21.2.0
+Babel @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/Babel/Babel-2.9.1
+bcrypt @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/bcrypt/bcrypt-3.2.0
+bitstring @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/bitstring/bitstring-3.1.7
+blist @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/blist/blist-1.3.6
+bokeh @ file:///dev/shm/bokeh/2.4.1/foss-2021a/bokeh/bokeh-2.4.1
+Bottleneck @ file:///dev/shm/SciPybundle/2021.05/foss-2021a/Bottleneck/Bottleneck-1.3.2
+CacheControl @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/CacheControl/CacheControl-0.12.6
+cachelib @ file:///dev/shm/Flask/1.1.4/GCCcore-10.3.0/cachelib/cachelib-0.4.1
+cachy @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/cachy/cachy-0.3.0
+certifi @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/certifi/certifi-2020.12.5
+cffi @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/cffi/cffi-1.14.5
+chardet @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/chardet/chardet-4.0.0
+cleo @ file:///apps/sources/p/Python/extensions/cleo-0.8.1-py2.py3-none-any.whl
+click @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/click/click-7.1.2
+clikit @ file:///apps/sources/p/Python/extensions/clikit-0.6.2-py2.py3-none-any.whl
+cloudpickle @ file:///dev/shm/dask/2021.9.1/foss-2021a/cloudpickle/cloudpickle-2.0.0
+colorama @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/colorama/colorama-0.4.4
+crashtest @ file:///apps/sources/p/Python/extensions/crashtest-0.3.1-py3-none-any.whl
+cryptography @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/cryptography/cryptography-3.4.7
+cycler @ file:///dev/shm/matplotlib/3.4.2/foss-2021a/Cycler/cycler-0.10.0
+Cython @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/Cython/Cython-0.29.23
+dask @ file:///dev/shm/dask/2021.9.1/foss-2021a/dask/dask-2021.9.1
+dask-jobqueue @ file:///dev/shm/dask/2021.9.1/foss-2021a/daskjobqueue/dask-jobqueue-0.7.2
+dask-mpi @ file:///dev/shm/dask/2021.9.1/foss-2021a/daskmpi/dask-mpi-2.21.0
+deap @ file:///dev/shm/SciPybundle/2021.05/foss-2021a/deap/deap-1.3.1
+decorator @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/decorator/decorator-5.0.7
+distlib @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/distlib/distlib-0.3.1
+distributed @ file:///dev/shm/dask/2021.9.1/foss-2021a/distributed/distributed-2021.9.1
+docker-pycreds==0.4.0
+docopt @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/docopt/docopt-0.6.2
+docrep @ file:///dev/shm/dask/2021.9.1/foss-2021a/docrep/docrep-0.3.2
+docutils @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/docutils/docutils-0.17.1
+ecdsa @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/ecdsa/ecdsa-0.16.1
+expecttest @ file:///dev/shm/expecttest/0.1.3/GCCcore-10.3.0/expecttest-0.1.3
+filelock @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/filelock/filelock-3.0.12
+Flask @ file:///dev/shm/Flask/1.1.4/GCCcore-10.3.0/Flask/Flask-1.1.4
+Flask-Cors @ file:///dev/shm/Flask/1.1.4/GCCcore-10.3.0/FlaskCors/Flask-Cors-3.0.10
+Flask-Session @ file:///dev/shm/Flask/1.1.4/GCCcore-10.3.0/FlaskSession/Flask-Session-0.4.0
+flit @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/flit/flit-3.2.0
+flit_core @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/flitcore/flit_core-3.2.0
+fsspec @ file:///dev/shm/dask/2021.9.1/foss-2021a/fsspec/fsspec-2021.10.1
+future @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/future/future-0.18.2
+gitdb==4.0.10
+GitPython==3.1.29
+googledrivedownloader @ file:///local/tmp.677382/PyTorchGeometric/2.1.0/foss-2021a-PyTorch-1.12.1-CUDA-11.3.1/googledrivedownloader/googledrivedownloader-0.4
+h5py @ file:///dev/shm/h5py/3.2.1/foss-2021a/h5py-3.2.1
+HeapDict @ file:///dev/shm/dask/2021.9.1/foss-2021a/HeapDict/HeapDict-1.0.1
+html5lib @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/html5lib/html5lib-1.1
+idna @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/idna/idna-2.10
+imageio @ file:///dev/shm/scikitimage/0.18.3/foss-2021a/imageio/imageio-2.9.0
+imagesize @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/imagesize/imagesize-1.2.0
+importlib-metadata @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/importlib_metadata/importlib_metadata-4.0.1
+imread @ file:///dev/shm/scikitimage/0.18.3/foss-2021a/imread/imread-0.7.4
+iniconfig @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/iniconfig/iniconfig-1.1.1
+intervaltree @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/intervaltree/intervaltree-3.1.0
+intreehooks @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/intreehooks/intreehooks-1.0
+ipaddress @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/ipaddress/ipaddress-1.0.23
+isodate @ file:///dev/shm/RDFlib/6.2.0/GCCcore-10.3.0/isodate/isodate-0.6.1
+itsdangerous @ file:///dev/shm/Flask/1.1.4/GCCcore-10.3.0/itsdangerous/itsdangerous-1.1.0
+jeepney @ file:///apps/sources/p/Python/extensions/jeepney-0.6.0-py3-none-any.whl
+Jinja2 @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/Jinja2/Jinja2-2.11.3
+joblib @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/joblib/joblib-1.0.1
+jsonschema @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/jsonschema/jsonschema-3.2.0
+keyring @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/keyring/keyring-21.8.0
+keyrings.alt @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/keyringsalt/keyrings.alt-4.0.2
+kiwisolver @ file:///dev/shm/matplotlib/3.4.2/foss-2021a/kiwisolver/kiwisolver-1.3.1
+liac-arff @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/liacarff/liac-arff-2.5.0
+llvmlite @ file:///dev/shm/numba/0.53.1/foss-2021a/llvmlite/llvmlite-0.36.0
+locket @ file:///dev/shm/dask/2021.9.1/foss-2021a/locket/locket-0.2.1
+lockfile @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/lockfile/lockfile-0.12.2
+MarkupSafe @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/MarkupSafe/MarkupSafe-1.1.1
+matplotlib @ file:///dev/shm/matplotlib/3.4.2/foss-2021a/matplotlib/matplotlib-3.4.2
+memory-profiler==0.61.0
+mock @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/mock/mock-4.0.3
+more-itertools @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/moreitertools/more-itertools-8.7.0
+mpi4py @ file:///dev/shm/SciPybundle/2021.05/foss-2021a/mpi4py/mpi4py-3.0.3
+mpmath @ file:///dev/shm/SciPybundle/2021.05/foss-2021a/mpmath/mpmath-1.2.1
+msgpack @ file:///dev/shm/dask/2021.9.1/foss-2021a/msgpack/msgpack-1.0.2
+netaddr @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/netaddr/netaddr-0.8.0
+netifaces @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/netifaces/netifaces-0.10.9
+networkx @ file:///dev/shm/networkx/2.5.1/foss-2021a/networkx-2.5.1
+nose @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/nose/nose-1.3.7
+numba @ file:///dev/shm/numba/0.53.1/foss-2021a/numba/numba-0.53.1
+numexpr @ file:///dev/shm/SciPybundle/2021.05/foss-2021a/numexpr/numexpr-2.7.3
+numpy @ file:///dev/shm/SciPybundle/2021.05/foss-2021a/numpy/numpy-1.20.3
+packaging @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/packaging/packaging-20.9
+pandas @ file:///dev/shm/SciPybundle/2021.05/foss-2021a/pandas/pandas-1.2.4
+paramiko @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/paramiko/paramiko-2.7.2
+partd @ file:///dev/shm/dask/2021.9.1/foss-2021a/partd/partd-1.2.0
+pastel @ file:///apps/sources/p/Python/extensions/pastel-0.2.1-py2.py3-none-any.whl
+pathlib2 @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/pathlib2/pathlib2-2.3.5
+pathtools==0.1.2
+paycheck @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/paycheck/paycheck-1.0.2
+pbr @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/pbr/pbr-5.6.0
+pexpect @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/pexpect/pexpect-4.8.0
+Pillow @ file:///dev/shm/Pillow/8.2.0/GCCcore-10.3.0/Pillow-8.2.0
+pkginfo @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/pkginfo/pkginfo-1.7.0
+pluggy @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/pluggy/pluggy-0.13.1
+plyfile @ file:///local/tmp.677382/PyTorchGeometric/2.1.0/foss-2021a-PyTorch-1.12.1-CUDA-11.3.1/plyfile/plyfile-0.7.4
+poetry @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/poetry/poetry-1.1.6
+poetry-core @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/poetrycore/poetry-core-1.0.3
+pooch @ file:///dev/shm/scikitimage/0.18.3/foss-2021a/pooch/pooch-1.5.2
+promise==2.3
+protobuf @ file:///dev/shm/protobufpython/3.17.3/GCCcore-10.3.0/protobuf-3.17.3
+psutil @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/psutil/psutil-5.8.0
+ptyprocess @ file:///apps/sources/p/Python/extensions/ptyprocess-0.7.0-py2.py3-none-any.whl
+py @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/py/py-1.10.0
+py-expression-eval @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/py_expression_eval/py_expression_eval-0.3.13
+pyasn1 @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/pyasn1/pyasn1-0.4.8
+pybind11 @ file:///dev/shm/pybind11/2.6.2/GCCcore-10.3.0/pybind11-2.6.2
+pycparser @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/pycparser/pycparser-2.20
+pycrypto @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/pycrypto/pycrypto-2.6.1
+Pygments @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/Pygments/Pygments-2.9.0
+pyinstrument==4.4.0
+pylev @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/pylev/pylev-1.3.0
+PyMatching==2.1.0
+PyNaCl @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/PyNaCl/PyNaCl-1.4.0
+pyparsing @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/pyparsing/pyparsing-2.4.7
+pyrsistent @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/pyrsistent/pyrsistent-0.17.3
+pytest @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/pytest/pytest-6.2.4
+pytest-mock @ file:///dev/shm/ASE/3.22.0/foss-2021a/pytestmock/pytest-mock-3.6.1
+python-dateutil @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/pythondateutil/python-dateutil-2.8.1
+python-louvain @ file:///local/tmp.677382/PyTorchGeometric/2.1.0/foss-2021a-PyTorch-1.12.1-CUDA-11.3.1/pythonlouvain/python-louvain-0.16
+pytoml @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/pytoml/pytoml-0.1.21
+pytz @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/pytz/pytz-2021.1
+PyWavelets @ file:///dev/shm/scikitimage/0.18.3/foss-2021a/PyWavelets/PyWavelets-1.1.1
+PyYAML @ file:///dev/shm/PyYAML/5.4.1/GCCcore-10.3.0/PyYAML-5.4.1
+rdflib @ file:///dev/shm/RDFlib/6.2.0/GCCcore-10.3.0/rdflib/rdflib-6.2.0
+regex @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/regex/regex-2021.4.4
+requests @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/requests/requests-2.25.1
+requests-toolbelt @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/requeststoolbelt/requests-toolbelt-0.9.1
+retworkx==0.12.1
+rustworkx==0.12.1
+scandir @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/scandir/scandir-1.10.0
+scikit-image @ file:///dev/shm/scikitimage/0.18.3/foss-2021a/scikitimage/scikit-image-0.18.3
+scikit-learn @ file:///dev/shm/scikitlearn/0.24.2/foss-2021a/scikit-learn-0.24.2
+scipy @ file:///dev/shm/SciPybundle/2021.05/foss-2021a/scipy/scipy-1.6.3
+SecretStorage @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/SecretStorage/SecretStorage-3.3.1
+semantic-version @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/semantic_version/semantic_version-2.8.5
+sentry-sdk==1.11.1
+setproctitle==1.3.2
+setuptools-rust @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/setuptoolsrust/setuptools-rust-0.12.1
+setuptools-scm @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/setuptools_scm/setuptools_scm-6.0.1
+shellingham @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/shellingham/shellingham-1.4.0
+shortuuid==1.0.11
+simplegeneric @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/simplegeneric/simplegeneric-0.8.1
+simplejson @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/simplejson/simplejson-3.17.2
+sinter==1.11.0
+six @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/six/six-1.16.0
+smmap==5.0.0
+snowballstemmer @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/snowballstemmer/snowballstemmer-2.1.0
+sortedcontainers @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/sortedcontainers/sortedcontainers-2.3.0
+spglib @ file:///dev/shm/spglibpython/1.16.1/foss-2021a/spglib-1.16.1
+Sphinx @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/Sphinx/Sphinx-4.0.0
+sphinx-bootstrap-theme @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/sphinxbootstraptheme/sphinx-bootstrap-theme-0.7.1
+sphinxcontrib-applehelp @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/sphinxcontribapplehelp/sphinxcontrib-applehelp-1.0.2
+sphinxcontrib-devhelp @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/sphinxcontribdevhelp/sphinxcontrib-devhelp-1.0.2
+sphinxcontrib-htmlhelp @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/sphinxcontribhtmlhelp/sphinxcontrib-htmlhelp-1.0.3
+sphinxcontrib-jsmath @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/sphinxcontribjsmath/sphinxcontrib-jsmath-1.0.1
+sphinxcontrib-qthelp @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/sphinxcontribqthelp/sphinxcontrib-qthelp-1.0.3
+sphinxcontrib-serializinghtml @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/sphinxcontribserializinghtml/sphinxcontrib-serializinghtml-1.1.4
+sphinxcontrib-websupport @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/sphinxcontribwebsupport/sphinxcontrib-websupport-1.2.4
+stim==1.11.0
+tabulate @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/tabulate/tabulate-0.8.9
+tblib @ file:///dev/shm/dask/2021.9.1/foss-2021a/tblib/tblib-1.7.0
+threadpoolctl @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/threadpoolctl/threadpoolctl-2.1.0
+tifffile @ file:///dev/shm/scikitimage/0.18.3/foss-2021a/tifffile/tifffile-2021.10.12
+toml @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/toml/toml-0.10.2
+tomlkit @ file:///apps/sources/p/Python/extensions/tomlkit-0.7.0-py2.py3-none-any.whl
+toolz @ file:///dev/shm/dask/2021.9.1/foss-2021a/toolz/toolz-0.11.1
+torch==1.12.1
+torch-cluster @ file:///local/tmp.677382/PyTorchGeometric/2.1.0/foss-2021a-PyTorch-1.12.1-CUDA-11.3.1/torch_cluster/torch_cluster-1.6.0
+torch-geometric @ file:///local/tmp.677382/PyTorchGeometric/2.1.0/foss-2021a-PyTorch-1.12.1-CUDA-11.3.1/torch_geometric/torch_geometric-2.1.0
+torch-scatter @ file:///local/tmp.677382/PyTorchGeometric/2.1.0/foss-2021a-PyTorch-1.12.1-CUDA-11.3.1/torch_scatter/torch_scatter-2.1.0
+torch-sparse @ file:///local/tmp.677382/PyTorchGeometric/2.1.0/foss-2021a-PyTorch-1.12.1-CUDA-11.3.1/torch_sparse/torch_sparse-0.6.15
+torch-spline-conv @ file:///local/tmp.677382/PyTorchGeometric/2.1.0/foss-2021a-PyTorch-1.12.1-CUDA-11.3.1/torch_spline_conv/torch_spline_conv-1.2.1
+tornado @ file:///dev/shm/bokeh/2.4.1/foss-2021a/tornado/tornado-6.1
+tqdm @ file:///dev/shm/tqdm/4.61.2/GCCcore-10.3.0/tqdm-4.61.2
+typing-extensions @ file:///dev/shm/typingextensions/3.10.0.0/GCCcore-10.3.0/typing_extensions-3.10.0.0
+ujson @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/ujson/ujson-4.0.2
+urllib3==1.26.13
+virtualenv @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/virtualenv/virtualenv-20.4.6
+wandb==0.13.3
+wcwidth @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/wcwidth/wcwidth-0.2.5
+webencodings @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/webencodings/webencodings-0.5.1
+Werkzeug @ file:///dev/shm/Flask/1.1.4/GCCcore-10.3.0/Werkzeug/Werkzeug-1.0.1
+xlrd @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/xlrd/xlrd-2.0.1
+yacs @ file:///dev/shm/YACS/0.1.8/GCCcore-10.3.0/yacs-0.1.8
+zict @ file:///dev/shm/dask/2021.9.1/foss-2021a/zict/zict-2.0.0
+zipp @ file:///dev/shm/Python/3.9.5/GCCcore-10.3.0/zipp/zipp-3.4.1

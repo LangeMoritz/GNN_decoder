@@ -1,0 +1,31 @@
+# python files:
+__pycache__
+
+# jupyter notebook checkpoints
+*.ipynb_checkpoints
+
+# large result files
+*.csv
+*.pt
+
+# log files
+*.log
+
+# output files 
+*.out
+
+# data file:
+*.pkl
+
+# Mac finder files and hidden folders
+.DS_Store
+
+# virtual environment:
+venv
+
+# wandb files
+wandb
+
+# binary files:
+*.01
+*.b8
