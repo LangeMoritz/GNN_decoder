@@ -1,7 +1,7 @@
 # Graph Decoder
 Graph neural network decoder for the rotated surface code.
 
-Includes the source code for the GNN decoder, as well as scripts to run the code on the Alvis cluster.
+Includes the source code for the GNN decoder, as well as scripts to run the code on a cluster.
 
 ## Getting started
 Follow these steps to run the code on a cluster.
