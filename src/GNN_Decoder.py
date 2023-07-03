@@ -1,7 +1,7 @@
 '''
 Class for decoding syndromes with graph neural networks, with methods for
 training the network continuously with graphs from random sampling of errors 
-as training data.
+as training data. Samples are generated using multiprocessing.
 '''
 import torch
 import numpy as np
@@ -207,13 +207,12 @@ class GNN_Decoder:
         ):
         '''        
         Train the decoder by generating a buffer of random syndrome graphs,
-        and continuously train the network with random selections of data 
-        batches from the buffer as training data.
+        and continuously train the network with data from the buffer.
         The true equivalence classes of the underlying errors are used
         as training labels.
         
         After each iteration, a number of batches in the buffer are replaced
-        by randomly sampling new graphs.
+        by randomly sampling new graphs. Data is generated in parallel.
 
         The input arguments 
             replacements_per_iteration
@@ -269,7 +268,7 @@ class GNN_Decoder:
             device = 'cpu'
         
         if train:
-            # Initialize stim circuit for all error rates:
+            # Initialize stim circuit for all training error rates:
             circuits = []
             for p in error_rate:
                 circuit = stim.Circuit.generated(
@@ -281,10 +280,10 @@ class GNN_Decoder:
                             before_measure_flip_probability = p,
                             before_round_data_depolarization = p)
                 circuits.append(circuit)
-
             # get detector coordinates (same for all error rates):
             detector_coordinates = circuits[0].get_detector_coordinates()
         else:
+            # Initialize stim circuit for one test error rate:
             circuit = stim.Circuit.generated(
                             "surface_code:rotated_memory_z",
                             rounds = repetitions,
@@ -293,7 +292,7 @@ class GNN_Decoder:
                             after_reset_flip_probability = error_rate,
                             before_measure_flip_probability = error_rate,
                             before_round_data_depolarization = error_rate)
-            # get detector coordinates (same for all error rates):
+            # get detector coordinates:
             detector_coordinates = circuit.get_detector_coordinates()
 
         # get coordinates of detectors (divide by 2 because stim labels 2d grid points)
@@ -319,6 +318,9 @@ class GNN_Decoder:
         # DEFINE HELPER FUNCTIONS
         ####################################################################
         def syndrome_mask(code_size, repetitions):
+            '''
+            Creates a surface code grid. 1: X-stabilizer. 3: Z-stabilizer.
+            '''
             M = code_size + 1
 
             syndrome_matrix_X = np.zeros((M, M), dtype = np.uint8)
@@ -337,11 +339,14 @@ class GNN_Decoder:
             # Return the syndrome matrix
             return np.dstack([syndrome_matrix] * (repetitions + 1))
         
+        # get the surface code grid:
         mask = syndrome_mask(code_size, repetitions)
     
         def generate_buffer(buffer_size):
             '''
             Creates a buffer with len(error_rate)*batch_size*buffer_size samples.
+            Empty syndromes are removed from the training data, because empty graphs 
+            can't be handled by PyTorch and should be easily classified as I.
             '''
             stim_data_list, observable_flips_list = [], []
 
@@ -354,7 +359,6 @@ class GNN_Decoder:
                 while len(stim_data_one_p) < (batch_size * buffer_size):
                     stim_data, observable_flips = sampler.sample(shots = factor * batch_size * buffer_size, separate_observables = True)
                     # remove empty syndromes:
-                    # (don't count imperfect X(Z) in second to last time)
                     non_empty_indices = (np.sum(stim_data, axis = 1) != 0)
                     stim_data_one_p.extend(stim_data[non_empty_indices, :])
                     observable_flips_one_p.extend(observable_flips[non_empty_indices])
@@ -439,7 +443,8 @@ class GNN_Decoder:
             return correct_predictions, total_loss
         
         def generate_test_batch(test_size):
-            # Keep track of true labels for trivial syndromes
+            '''Generates a test batch at one test error rate'''
+            # Keep track of trivial syndromes
             correct_predictions_trivial = 0
 
             stim_data_list, observable_flips_list = [], []
@@ -489,9 +494,8 @@ class GNN_Decoder:
         def decode_test_batch(graph_batch):
             '''
             Estimates the decoder's logical success rate with one batch 
-            of test graphs which were generated in advance. Returns both the accuracy
-            tested with trivial syndromes ('test_accuracy') and the accuracy tested 
-            without trivial syndromes ('val_accuracy')
+            of test graphs which were generated in advance. Returns the accuracy
+            tested without trivial syndromes ('val_accuracy').
             '''
             # Count correct predictions by GNN for nontrivial syndromes
             correct_predictions_nontrivial = count_correct_predictions_in_test_batch(graph_batch)
@@ -502,7 +506,8 @@ class GNN_Decoder:
         def generate_and_decode_test_batch(test_size):
             '''
             Estimates the decoder's logical success rate with one batch 
-            of test graphs which are generated with this function
+            of test graphs which are generated with this function. Returns the 
+            accuracy tested with trivial syndromes.
             '''
             # Generate a test batch
             graph_batch, correct_predictions_trivial = generate_test_batch(test_size)
@@ -640,12 +645,17 @@ def generate_batch(stim_data_list,
                    observable_flips_list,
                    detector_coordinates,
                    mask, m_nearest_nodes, power):
+    '''
+    Generates a batch of graphs from a list of stim experiments.
+    '''
     batch = []
 
     for i in range(len(stim_data_list)):
+        # convert to syndrome grid:
         syndrome = stim_to_syndrome_3D(mask, detector_coordinates, stim_data_list[i])
+        # get the logical equivalence class:
         true_eq_class = np.array([int(observable_flips_list[i])])
-
+        # map to graph representation
         graph = get_3D_graph(syndrome_3D = syndrome,
                                    target = true_eq_class,
                                    power = power,
@@ -654,7 +664,11 @@ def generate_batch(stim_data_list,
     return batch
 
 def stim_to_syndrome_3D(mask, coordinates, stim_data):
-
+    '''
+    Converts a stim detection event array to a syndrome grid. 
+    1 indicates a violated X-stabilizer, 3 a violated Z stabilizer. 
+    Only the difference between two subsequent cycles is stored.
+    '''
     # initialize grid:
     syndrome_3D = np.zeros_like(mask)
 

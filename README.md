@@ -7,7 +7,7 @@ Includes the source code for the GNN decoder, as well as scripts to run the code
 Follow these steps to run the code on a cluster.
 
 * Clone the repository with
-`git clone https://github.com/ponhav/graph-decoder.git`
+`git clone https://github.com/LangeMoritz/GNN_decoder`
 * Install the required packages in `requirements.txt`, for example using a virtual environment:
 ```
 python3 -m venv .venv 
