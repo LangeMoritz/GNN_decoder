@@ -31,10 +31,11 @@ python -m pip install -r requirements.txt
 │   ├── graph_representation.py
 │   └── rotated_surface_code.py
 ```
+* `models/` contains trained models corresponding to fig. 3 (`circuit_level_noise/`), fig. 5 and 6 (`repetition_code/`) and fig. 7 (`perfect_stabilizers/`)
 * `results/` contains model and training history from training runs as .pt files (each run generates one file upon finishing). This directory should exist in your working directory.
 * `job_outputs/` contains the standard output files from runs. This directory should exist in your working directory.
 * `buffer_training.py` is the python script used to run training with a data buffer, replacing part of the buffer with new data after a fixed number of training iterations.
-  * `run_continuous_training.sh` is the shell run script used to start is jobs for `buffer_training.py`.
+  * `run_buffer_training.sh` is the shell run script used to start is jobs for `buffer_training.py`.
 * `.gitignore` lists files and directories in the git repository to be ignored in commits.
 * `requirements.txt` lists the required python packages. See the Getting Started section above.
   
