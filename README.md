@@ -2,19 +2,27 @@
 Graph neural network decoder for the rotated surface code. 
 
 This repository accompanies the article:
+
 [Data-driven decoding of quantum error correcting codes using graph neural networks](https://arxiv.org/abs/2307.01241)
-M. Lange, P. Havström, B. Srivastava, I. Bengtsson, V. Bergentall, K. Hammar, O. Heuts, E. van Nieuwenburg, M. Granath
-Physical Review Research 7, 023181 (2025)
 
 If you use this code in your research, please cite:
+
 @article{lange2025data,
+
   title={Data-driven decoding of quantum error correcting codes using graph neural networks},
+  
   author={Lange, Moritz and Havstr{\"o}m, Pontus and Srivastava, Basudha and Bengtsson, Isak and Bergentall, Valdemar and Hammar, Karl and Heuts, Olivia and van Nieuwenburg, Evert and Granath, Mats},
+  
   journal={Physical Review Research},
+  
   volume={7},
+  
   number={2},
+  
   pages={023181},
+  
   year={2025},
+  
   publisher={APS}
 }
 
