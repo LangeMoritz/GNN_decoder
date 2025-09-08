@@ -5,7 +5,6 @@ This repository accompanies the article:
 [Data-driven decoding of quantum error correcting codes using graph neural networks](https://arxiv.org/abs/2307.01241)
 M. Lange, P. Havström, B. Srivastava, I. Bengtsson, V. Bergentall, K. Hammar, O. Heuts, E. van Nieuwenburg, M. Granath
 Physical Review Research 7, 023181 (2025)
-https://arxiv.org/abs/2307.01241
 
 If you use this code in your research, please cite:
 @article{lange2025data,
