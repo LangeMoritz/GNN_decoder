@@ -6,6 +6,8 @@ __pycache__
 
 # log files
 *.log
+*.yaml
+*.sh
 
 # output files 
 *.out
@@ -17,7 +19,7 @@ __pycache__
 .DS_Store
 
 # virtual environment:
-venv
+.venv
 
 # wandb files
 wandb
