@@ -1,6 +1,5 @@
 import numpy as np
 import torch
-import scipy
 
 def sample_syndromes(n_shots, compiled_sampler, device):
     # distinguish between training and testing:

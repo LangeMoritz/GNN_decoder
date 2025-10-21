@@ -33,7 +33,7 @@ class GNN_7(torch.nn.Module):
 
         # Dense layers for the MLP classifier
         channels = hidden_channels_GCN[-1:] + hidden_channels_MLP
-        self.mlp_layers = nn.ModuleList(
+        self.dense_layers = nn.ModuleList(
             [nn.Linear(in_channels, out_channels)
             for (in_channels, out_channels) in zip(channels[:-1], channels[1:])]
             )
@@ -51,7 +51,7 @@ class GNN_7(torch.nn.Module):
         x = global_mean_pool(x, batch)
 
         # pass through MLPs
-        for layer in self.mlp_layers:
+        for layer in self.dense_layers:
             x = layer(x)
             x = torch.nn.functional.relu(x, inplace=True)
         

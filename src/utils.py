@@ -28,7 +28,8 @@ def parse_yaml(yaml_config):
         config["graph_settings"] = {
             "code_size": 7,
             "error_rate": 0.001,
-            "m_nearest_nodes": 10
+            "m_nearest_nodes": 10,
+            "power": 2
         }
         device = "cuda" if torch.cuda.is_available() else "cpu"
         config["training_settings"] = {

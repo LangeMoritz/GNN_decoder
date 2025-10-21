@@ -396,7 +396,6 @@ class Decoder:
         test_accuracy = test_accuracy / n_test_batches
         print(f'Test Acc: {test_accuracy}, tested on {n_test_batches * batch_size} '
               f'samples, of which {n_trivial_syndromes} trivial samples.')
-        self.training_history["test_accuracy"].append(test_accuracy)
 
         runtime = time.perf_counter()-time_start
         print('Testing completed after {:.1f}:{:.1f}:{:.1f}'.format(*divmod(divmod(

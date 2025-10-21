@@ -1,0 +1,42 @@
+paths:
+  save_dir: saved_models/d_3
+  save_model_dir: saved_models/d_3
+  saved_model_path: saved_models/d_3/my_pretrained_model.pt
+model_settings:
+  hidden_channels_GCN: 
+    - 32
+    - 128
+    - 256
+    - 512
+    - 512
+    - 256
+    - 256
+  hidden_channels_MLP:
+    - 256
+    - 128
+    - 64
+  num_classes: 1
+graph_settings:
+  code_size: 3
+  d_t: 3
+  train_error_rate: [0.001, 0.002, 0.003, 0.004, 0.005]
+  test_error_rate: 0.001
+  m_nearest_nodes: 10
+  power: 2
+training_settings:
+  run_training: True
+  run_test: True
+  wandb: False
+  seed: Null
+  dataset_size: 10000000
+  validation_set_size: 50000
+  test_set_size: 50000
+  batch_size: 26000
+  acc_test_size: 10000000
+  acc_test_batch_size: 26000
+  epochs: 300
+  lr: 0.0001
+  device: cuda
+  resume_training: False
+  current_epoch: 0
+

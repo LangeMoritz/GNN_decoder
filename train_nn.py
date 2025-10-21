@@ -5,6 +5,9 @@ import os
 sys.path.append("..")
 from src.decoder import Decoder
 
+os.environ['JOB_NAME'] = 'my_name'
+os.environ['NOTES'] = 'my_note'
+
 def main():
     job_name = os.getenv('JOB_NAME')
     notes = os.getenv('NOTES')

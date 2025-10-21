@@ -6,7 +6,6 @@ __pycache__
 
 # log files
 *.log
-*.yaml
 *.sh
 
 # output files 
@@ -14,6 +13,7 @@ __pycache__
 
 # data file:
 *.pkl
+*.pt
 
 # Mac files
 .DS_Store
